@@ -15,6 +15,7 @@
     --gray-400: #94a3b8;
     --gray-200: #e2e8f0;
     --purple: #7c3aed;
+    --white: #fff;
 }
 
 /* numero = 20 */
@@ -95,5 +96,18 @@ main{
 
 .login a:hover{
     text-decoration: underline;
+}
+
+.login button{
+    margin-top: 1rem;
+    padding-block: 1rem;
+    width:100%;
+    background: var(--purple);
+    border:none;
+    border-radius: 0.4rem;
+
+    font-size:1rem;
+    font-weight: 700;
+    color: var(--white);
 }
 /* nome da cor, rgb, rgba, hex, hsl,hwb */
