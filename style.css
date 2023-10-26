@@ -121,7 +121,15 @@ main{
     font-size: 1rem;
 }
 
+.bg-desktop{
+    display:none;
+}
+
 @media(min-width:1000px){
+
+    body{
+        display: flex;
+    }
     header{
         background: none;
         justify-content: flex-start;
@@ -134,6 +142,15 @@ main{
 
     main{
         padding-inline: 7rem;
+    }
+
+    .conteudo{
+        width: 100%;
+    }
+
+    .bg-desktop{
+        display:block;
+        width: 100%;
     }
 }
 /* nome da cor, rgb, rgba, hex, hsl,hwb */
